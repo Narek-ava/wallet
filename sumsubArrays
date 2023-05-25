@@ -1,0 +1,365 @@
+<?php
+
+const CORPORATE_SUMSUB_RESPONSE = [
+    'id' => '6203b57169fc980001e0045e',
+    'createdAt' => '2022-02-09 12:37:05',
+    'key' => 'JRFMUFVTZBEKQK',
+    'clientId' => 'cratos',
+    'inspectionId' => '6203b57169fc980001e0045f',
+    'externalUserId' => 'cee1b9c4-3dd5-4c4c-b3f8-29b7ea93c44c',
+    'info' => [
+
+        'companyInfo' => [
+            'companyName' => 'Akurateco Lab, Informática Unipessoal Lda',
+            'registrationNumber' => '516406205',
+            'country' => 'PRT',
+            'legalAddress' => 'Rua de Breijinjho, № 4, 2 dt. 2135-099 Samora correia, Portugal',
+            'address' => [
+                'town' => 'Benavente (Santarém)',
+            ],
+
+            'incorporatedOn' => '2020-03-30 00:00:00',
+            'email' => 'kv@akurateco.com',
+            'phone' => '+31 6 14997879',
+            'taxId' => '516406205',
+            'registrationLocation' => 'Rua de Breijinjho, № 4, 2 dt. 2135-099 Samora correia, Portugal',
+            'website' => 'https://akurateco.com/',
+            'postalAddress' => '2135-099',
+            'beneficiaries' => [
+                [
+                    'applicantId' => '6203bfa155e80e0001c90083',
+                    'positions' => [
+                        'shareholder', 'director'
+                    ],
+                    'type' => 'ubo',
+                    'inRegistry' => '',
+                    'imageIds' => '',
+                    'applicant' => '',
+                    'shareSize' => '',
+                ],
+
+                [
+                    'applicantId' => '6203c73669fc980001e1b11c',
+                    'positions' => [
+                        'shareholder', 'director'
+                    ],
+                    'type' => 'shareholder',
+                    'inRegistry' => '',
+                    'imageIds' => '',
+                    'applicant' => '',
+                    'shareSize' => '',
+                ],
+
+            ],
+
+        ],
+
+    ],
+    'email' => 'natalia . tymoshenko@akurateco . com',
+    'phone' => '380661845526',
+    'review' => [
+        'reviewId' => 'huPAv',
+        'attemptId' => 'fUcWX',
+        'attemptCnt' => '2',
+        'elapsedSincePendingMs' => '142692',
+        'elapsedSinceQueuedMs' => '142692',
+        'reprocessing' => '1',
+        'levelName' => 'Corporate - Level 2',
+        'createDate' => '2022 - 02 - 16 11:28:12 + 0000',
+        'reviewDate' => '2022 - 02 - 16 11:30:35 + 0000',
+        'reviewResult' => [
+            'reviewAnswer' => 'GREEN',
+            'rejectLabels' => [
+                'NOT_ALL_CHECKS_COMPLETED',
+            ],
+        ],
+
+        'reviewStatus' => 'completed',
+        'priority' => '0',
+        'autoChecked' => '',
+    ],
+
+    'lang' => 'en',
+    'type' => 'company',
+    'questionnaires' => [
+        [
+            'id' => '1',
+            'sections' => [
+                'director' => [
+                    'items' => [
+                        'surname_ne19q' => [
+                            'value' => 'Padytel',
+                        ],
+
+                        'name_i9atz' => [
+                            'value' => 'Yuriy',
+                        ],
+
+                        'street_n1xzm' => [
+                            'value' => 'Rua do Breijinho',
+                        ],
+
+                        'email_6c9h8' => [
+                            'value' => 'padytel81@sapo . pt',
+                        ],
+
+                        'houseNo_rxg5z' => [
+                            'value' => '4',
+                        ],
+
+                        'country_8jbht' => [
+                            'value' => 'PRT',
+                        ],
+
+                        'flatNo_xsrbl' => [
+                            'value' => '2º Dtº',
+                        ],
+
+                        'identityNoOrDa_3n3fh' => ['value' => '08.06.1981',
+                        ],
+
+                        'phoneNo_jvb2l' => [
+                            'value' => '351934885099',
+                        ],
+
+                        'postalCode_jx6sh' => [
+                            'value' => '2135 - 099',
+                        ],
+
+                        'town_uj568' => [
+                            'value' => 'Benavente(Santarém)',
+                        ],
+
+                    ],
+
+                ],
+
+                'legalAddress_rlsuv' => [
+                    'items' => [
+                        'country_q54qs' => [
+                            'value' => 'PRT',
+                        ],
+
+                        'street_l9yhg' => [
+                            'value' => 'Rua do Breijinho',
+                        ],
+                        'citytownvillag_vrz2c' => ['value' => 'Benavente(Santarém)',
+                        ],
+                        'houseNo_kn5um' => [
+                            'value' => '4',
+                        ],
+
+                        'postalCodezip_fa30j' => [
+                            'value' => '2135 - 099'
+                        ],
+
+                        'flatNo_n7feo' => [
+                            'value' => '2º Dtº'
+                        ],
+                    ],
+                ],
+
+                'beneficialOwner' => [
+                    'items' =>
+                        ['dateOfExpiry' => [
+                            'value' => '13.07.2030'
+                        ],
+
+                            'country' => [
+                                'value' => 'PRT',
+                            ],
+
+                            'clarify' => [],
+
+                            'passportIdNumberOfUb' => [
+                                'value' => '325967105ZZ3'
+                            ],
+
+                            'countryOfIssue' => [
+                                'value' => 'PRT',
+                            ],
+
+                            'town' => [
+                                'value' => 'Benavente(Santarém)'
+                            ],
+
+                            'name_vztza' => [
+                                'value' => 'Yuriy',
+                            ],
+
+                            'issuingInstitution' => [
+                                'value' => 'Portuguese Republic',
+                            ],
+
+                            'postalCode' => [
+                                'value' => '2135 - 099',
+                            ],
+
+                            'identityNoOrDa_gpveu' => [
+                                'value' => '08.06.1981'
+                            ],
+                            'surname_xhcjo' => ['value' => 'Padytel'
+                            ],
+
+                            'isPoliticallyE_gpiit' => ['value' => '2',
+                            ],
+
+                            'dateOfIssue' => [
+                                'value' => '13.07.2020'
+                            ],
+
+                            'countryOrOrganisatio' => [],
+
+                            'owned_cn75r' => ['value' => 100
+                            ],
+
+                            'flatNo' => [
+                                'value' => '2º Dtº'
+                            ],
+
+                            'street' => [
+                                'value' => 'Rua do Breijinho'
+                            ],
+
+                            'houseNo' => [
+                                'value' => '4'
+                            ],
+
+                            'position' => [],
+                        ],
+                ],
+                'contacts_d47nn' => [
+                    'items' => [
+                        'companyPhoneNo_2a7ls' => [
+                            'value' => '31614997879'
+                        ],
+
+                        'companyEmail_zq78d' => [
+                            'value' => 'kv@akurateco . com'
+                        ],
+
+                        'companyWebpage_504fi' => [
+                            'value' => 'https://akurateco.com/'
+                        ],
+
+                    ],
+
+                ],
+
+            ],
+
+        ],
+
+    ],
+
+];
+
+
+const INDIVIDUAL_SUMSUB_RESPONSE = [
+    'id' => '6238616977e20f000139ff85',
+    'createdAt' => '2022 - 03 - 21 11:28:41',
+    'key' => 'JRFMUFVTZBEKQK',
+    'clientId' => 'cratos',
+    'inspectionId' => '6238616977e20f000139ff86',
+    'externalUserId' => '6bd0df30-4bc4-417d-8685-891f343aedfd',
+    'info' => [
+        'firstName' => 'ANTONY',
+        'firstNameEn' => 'ANTONY',
+        'lastName' => 'QUAIFE',
+        'lastNameEn' => 'QUAIFE',
+        'dob' => '1981-08-10',
+        'country' => 'GBR',
+        'addresses' => [
+            [
+                'street' => 'Mount Whistle Road',
+                'streetEn' => 'Mount Whistle Road',
+                'state' => 'Cornwall',
+                'stateEn' => 'Cornwall',
+                'town' => 'Camborne',
+                'townEn' => 'Camborne',
+                'postCode' => 'TR14 0ES',
+                'country' => 'GBR',
+                'formattedAddress' => 'Mount Whistle Rd, Camborne TR14, UK',
+            ],
+
+        ],
+
+        'idDocs' =>
+            [
+                [
+                    'idDocType' => 'PASSPORT',
+                    'country' => 'GBR',
+                    'firstName' => 'ANTONY',
+                    'firstNameEn' => 'ANTONY',
+                    'lastName' => 'QUAIFE',
+                    'lastNameEn' => 'QUAIFE',
+                    'validUntil' => '2025 - 06 - 19',
+                    'number' => '525662025',
+                    'dob' => '1981 - 08 - 10',
+                    'mrzLine1' => 'P 5256620259GBR8108108M2506193 <<<<<<<<<<<<<<06',
+                ],
+
+                [
+                    'idDocType' => 'UTILITY_BILL',
+                    'country' => 'GBR',
+                    'firstName' => 'ANTONY DAVID QUAIFE',
+                    'firstNameEn' => 'ANTONY DAVID QUAIFE',
+                    'issuedDate' => '2022-03-03',
+                    'address' => '',
+                    ['street' => 'Mount Whistle Road',
+                        'streetEn' => 'Mount Whistle Road',
+                        'state' => 'Cornwall',
+                        'stateEn' => 'Cornwall',
+                        'town' => 'Camborne',
+                        'townEn' => 'Camborne',
+                        'postCode' => 'TR14 0ES',
+                        'country' => 'GBR',
+                        'formattedAddress' => 'Mount Whistle Rd, Camborne TR14, UK',
+                    ],
+
+                ],
+
+                [
+                    'idDocType' => 'DRIVERS',
+                    'country' => 'GBR',
+                    'firstName' => 'MR ANTONY DAVID',
+                    'firstNameEn' => 'MR ANTONY DAVID',
+                    'lastName' => 'QUAIFE',
+                    'lastNameEn' => 'QUAIFE',
+                    'validUntil' => '2027 - 12 - 21',
+                    'number' => 'QUAIF808101AD9GR06',
+                    'dob' => '1981 - 08 - 10',
+                ],
+
+            ],
+
+        'investability' => [
+            'transactionAmount' => '',
+            'investabilityType' => '',
+            'incomeSourceType' => 'salary',
+            'incomeSourceTypeOther' => '',
+            'incomeSourceDesc' => '',
+            'investmentKnowledgeLevel' => '',
+            'annualIncome' => '',
+            'netWorth' => '',
+        ],
+
+    ],
+    'email' => 'antony@quaife . net',
+    'phone' => '447961893473',
+    'applicantPlatform' => 'Web',
+    'ipCountry' => 'GBR',
+    'agreement' => '',
+    [
+        'createdAt' => '2022 - 03 - 21 11:28:46',
+        'source' => 'WebSDK',
+        'targets' => '',
+        [
+            'constConsentEn_v5',
+        ],
+
+        'content' => '',
+    ],
+
+    'requiredIdDocs' => '',
+];

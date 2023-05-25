@@ -1,0 +1,241 @@
+.exchange-type-btn {
+    border-radius: 27px;
+    background: white !important;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    border: solid 2px #fff0ef;
+}
+
+.exchange-type-btn:hover {
+    border: 2px solid var(--border-color) !important;
+}
+
+.wallet-tab:hover {
+    border: 2px solid var(--border-color) !important;
+}
+
+.wallet-tablist .active {
+    border: 2px solid var(--border-color) !important;
+    border-radius: 27px!important;
+    font-weight: 600;
+}
+
+.wallet-tablist{
+    border-bottom: none!important;
+    padding: 5px;
+}
+
+.wallet-tab {
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    border: solid 2px #fff0ef;
+    border-radius: 30px;
+}
+
+.wallet-btc:before {
+    content: "";
+    position: absolute;
+    left: -16px;
+    top: -6px;
+    width: 35px;
+    height:35px;
+    background-size: 35px;
+    background-repeat: no-repeat;
+}
+
+/* .wallet-btc[data-cryptocurrency=btc]:before {
+    background-image: url(../images/btc.png);
+}
+.wallet-btc[data-cryptocurrency=dash]:before {
+    background-image: url(../images/dash.png);
+}
+.wallet-btc[data-cryptocurrency=xlm]:before {
+    background-image: url(../images/xlm.png);
+}
+.wallet-btc[data-cryptocurrency=ltc]:before {
+    background-image: url(../images/ltc.png);
+}
+.wallet-btc[data-cryptocurrency=bch]:before {
+    background-image: url(../images/bch.png);
+} */
+
+.wallet-border-pink {
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    border: solid 1px #fff0ef;
+    border-radius: 30px;
+}
+
+.wallets button{
+    border-radius: 10px!important;
+}
+
+#regForm {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid,  select.invalid{
+    background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+    display: none;
+}
+
+
+#prevBtn {
+    cursor: pointer;
+    position: absolute;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.step.active {
+    opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+    background-color: #ffa2cc;
+}
+
+.component {
+    display: inline-block;
+    position: relative;
+    padding-left: 255px;
+    padding-top: 65px;
+    margin-bottom: 12px;
+    margin-left: 45px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    height: 110px;
+    width: 200px;
+    /* margin-left: 70px!important; */
+    background: white;
+    border-radius: 38px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    border: solid 2px #fff0ef;
+}
+
+.bank-details {
+    height: auto;
+    width: auto;
+}
+
+.bank-details-checkmark-text {
+    height: auto;
+    width: 600px;
+    padding: 20px;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+    font-size: 16px;
+}
+
+
+/* On mouse-over, add a grey background color */
+.component:hover input ~ .checkmark {
+    border: 2px solid var(--border-color);
+}
+
+/* When the radio button is checked, add a blue background */
+.component input:checked ~ .checkmark {
+    border: 2px solid var(--border-color);
+}
+
+.component input:checked ~ .checkmark-text {
+    font-weight: 500;
+}
+
+.checkmark-text {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    z-index: 100;
+    font-size: 18px;
+}
+
+.select-crypto-type{
+    height: 100px;
+    width: 200px;
+    border-radius: 27px;
+    padding: 10px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 35px;
+    background: white;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    border: solid 2px #fff0ef;
+}
+
+.select-crypto-type:hover{
+    border: 2px solid var(--border-color) !important;
+}
+
+.payment-info{
+    right: 20px;
+    top: 7px;
+    color: var(--main-color);
+}
+.addCurrency:hover {
+    background: var(--main-color);
+    border-color: var(--border-color);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+@media (max-width: 576px) {
+    .bank-details {
+        width: 100% !important;
+    }
+    .bank-details-checkmark-text {
+        width: 100%;
+    }
+}

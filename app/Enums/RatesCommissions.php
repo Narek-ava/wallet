@@ -1,0 +1,30 @@
+<?php
+
+
+namespace App\Enums;
+
+
+class RatesCommissions extends Enum
+{
+    const PERCENT_SEPA_INCOMING_USD = 0;
+    const PERCENT_SEPA_OUTGOING_USD = 2;
+    const PERCENT_SWIFT_INCOMING_USD = 4;
+    const PERCENT_SWIFT_OUTGOING_USD = 6;
+    const PERCENT_CRYPTO_INCOMING_USD = 10;
+    const PERCENT_CRYPTO_OUTGOING_USD = 12;
+    const PERCENT_BANK_CARD_INCOMING_USD = 8;
+    const PERCENT_EXPORT_OUTGOING_USD = 14;
+    const PERCENT_SEPA_INCOMING_EUR = 1;
+    const PERCENT_SEPA_OUTGOING_EUR = 3;
+    const PERCENT_SWIFT_INCOMING_EUR = 5;
+    const PERCENT_SWIFT_OUTGOING_EUR = 7;
+    const PERCENT_CRYPTO_INCOMING_EUR = 11;
+    const PERCENT_CRYPTO_OUTGOING_EUR = 13;
+    const PERCENT_BANK_CARD_INCOMING_EUR = 9;
+    const PERCENT_EXPORT_OUTGOING_EUR = 15;
+
+    const LIMIT_LEVEL_0 = 0;
+    const LIMIT_LEVEL_1 = 1;
+    const LIMIT_LEVEL_2 = 2;
+    const LIMIT_LEVEL_3 = 3;
+}

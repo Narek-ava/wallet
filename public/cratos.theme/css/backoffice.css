@@ -1,0 +1,53 @@
+.users-list {
+    max-width: 100%;
+    overflow-x: auto;
+    max-height: 700px;
+}
+
+.users-list .history-element-item {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline;
+    margin: auto 0;
+}
+
+#sidebar {
+    min-width: 225px;
+}
+
+.users-list-width-fix {
+    min-width: 2000px;
+}
+
+@media (max-width: 767px) {
+    .users-list-width-fix {
+        min-width: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .btc {
+        max-width: 25%;
+    }
+}
+
+.exchangeCaseStyle {
+    position: absolute;
+    left: 50%;
+    bottom: 17px;
+    width: 222px;
+}
+
+#labelFile {
+    border: 1px solid;
+    padding: 6px 37px 3px 37px;
+    border-radius: 10px;
+}
+
+#countryFlagUploadImage {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+

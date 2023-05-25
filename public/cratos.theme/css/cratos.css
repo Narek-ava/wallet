@@ -1,0 +1,854 @@
+label.for-error {
+    color: red !important;
+    font-weight: 500 !important;
+}
+
+/*
+работает некорректно
+#modal-register-sms .modal-content {
+    width:  70%;
+}
+ */
+
+.checkbox-as-radio-container label {
+    font-size: 18px !important;
+}
+
+.additional-label {
+    padding-top: 32px;
+}
+
+.font36boldblack {color:black;}
+
+.compliance_status_block{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 0;
+}
+
+.table-bo-rates input {
+//    background: yellow;
+//    border-bottom: none;
+    border-bottom: 1px lightgray dashed;
+    width: 100px;
+}
+
+.table-bo-rates th {
+    background: lightgray;
+}
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.7;
+}
+#docLoading img{
+    width: 100px;
+}
+#docLoading { text-align: center;}
+.download_user_activity {
+    margin-left: 30px;
+}
+.complianceRequestMsg{
+    overflow: auto;
+    max-height: 150px;
+    padding-top: 10px;
+}
+
+
+.rates-category-list {
+    padding: 22px;
+    margin-left: 14px;
+    margin-right: 14px;
+    position: relative;
+}
+.rates-category-list h3	{font-size: 22px; font-weight: bold; color: #3a3a3a; display: block; }
+.rates-category-list h3	a { color: #3a3a3a; }
+.paddingLeft0 {padding-left: 0;}
+.priceText {  font-size: 21px; }
+.priceRed {  font-size: 26px; color: var(--main-color);}
+.bankDetails{margin-left: 30px; margin-right: 15px}
+.ml-15{
+    margin-left: -15px;
+}
+.invalid-amount {
+    display:none;
+}
+
+.pdf-bottom {
+    margin-top: 36px;
+}
+
+.bold {
+    font-weight: bold
+}
+
+.status-textarea {
+    padding:5px;border-radius: 10px;resize: none;border:2px solid black
+}
+
+.clickable-class {
+    cursor: pointer;
+}
+
+.status-class {
+    color: #ffbe49;
+}
+
+.notificationLinks a{
+    border: solid 2px #fff0ef;
+    border-radius: 30px;
+    color: #000;
+    padding: 6px 24px;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+}
+
+.notificationLinks a.activeLink{
+    border: 2px solid var(--main-color) !important;
+}
+
+.notificationLinks {
+    padding-right: 10px;
+}
+
+.activeLink {
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+}
+
+#notificationTextarea {
+    margin: 20px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 30px;
+}
+
+.themeBtnDark {
+    color: #404040;
+}
+
+.selectFluid {
+    width: 100%;
+}
+
+.width20 {
+    width: 20%;
+}
+
+.width55 {
+    width: 55%;
+}
+
+.width15 {
+    width: 15%;
+}
+
+.width10 {
+    width: 10%;
+}
+
+.createdNotifications {
+    width: 100vw;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 15px 0;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    border: solid 1px #fff0ef !important;
+    border-radius: 30px;
+}
+
+.createdNotificationsInfo {
+    width: 100vw;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.createdNotificationsItems {
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.createdNotificationsInfoItems {
+    display: inline-block;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.notificationMoreMessageDown {
+    background-image: url(/cratos.theme/images/arrow-down.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.notificationMoreMessageUp {
+    background-size: 15px;
+    background-image: url(/cratos.theme/images/arrow-up.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.notificationCabinetMoreMessageDown {
+    /* background-image: url(/cratos.theme/images/arrow-down.png); */
+    background-repeat: no-repeat;
+    background-position: 0 45px !important;
+}
+
+.notificationCabinetMoreMessageUp {
+    background-size: 15px;
+    /* background-image: url(/cratos.theme/images/arrow-up.png); */
+    background-repeat: no-repeat;
+    background-position: 0 45px !important;
+}
+
+.clientNotificationItem {
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.notificationStatusButtonActive {
+    background-color: var(--button-color);
+}
+
+.notificationStatusButtonInactive {
+    background-color: #e2e2e2;
+}
+
+.notificationStatusButton {
+    position: relative;
+    top:20px;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+}
+
+.ml30 {
+    margin-left: 30px;
+}
+
+.pointerClass {
+    cursor: pointer;
+}
+
+.notificationHistorySelect {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+/* #from {
+    background-image: url(../images/arrow-down.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#to {
+    background-image: url(../images/arrow-down.png);
+    background-position: right;
+    background-repeat: no-repeat;
+} */
+
+.notifications-count,
+.tickets-count,
+.help-count {
+    display: inline-block;
+    padding: 0.5rem 0.18rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 0.6rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    position: relative;
+    top: -15px;
+    right: 5px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, var(--notify-from) 0%, var(--notify-to) 100%);
+    color: #fff;
+}
+
+.tickets-count {
+    position: absolute;
+    right: -12px;
+    top: -22px;
+}
+
+.btn-radiused {
+    border-radius: 20px;
+}
+
+.new-ticket-btn {
+    position: relative;
+    top: -55px;
+    left: 200px;
+}
+
+.ticketSubject {
+    border: 1px solid #ccc !important;
+    border-radius: 15px !important;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.ticketQuestion {
+    width: 100%;
+    border-color: #ccc;
+    border-radius: 15px;
+}
+
+#messageBox {
+    border-left: 1px solid #e2e2e2;
+}
+
+.ticket-inactive {
+    border: 1px solid #ccc;
+}
+
+.ticket-status-buttons {
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    border: solid 2px #fff0ef;
+    border-radius: 30px;
+    color: #000;
+    padding: 8px 24px;
+    height: 45px;
+    width: 115px;
+    text-align: center;
+    margin: 0 5px;
+    position: relative;
+}
+
+.fs20 {
+    font-size: 20px;
+}
+
+.fs25 {
+    font-size: 25px;
+}
+
+.close-ticket-btn {
+    position: relative;
+}
+
+.message-block {
+    padding-left: 45px;
+}
+
+.ticket-style {
+    padding-left: 45px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    border: solid 2px #fff0ef;
+    border-radius: 30px;
+}
+
+.ticket-active {
+    border: 2px solid var(--border-color);
+}
+
+.btn-centered {
+    display: block;
+    margin: 0 auto;
+}
+
+#replyMessage {
+    border-radius: 25px;
+    width: 100%;
+    padding: 20px;
+    border-color: #ccc;
+}
+
+.underlineText {
+    text-decoration: underline;
+}
+
+.statusIconActive {
+    background: var(--main-color);
+}
+
+.statusIconInactive {
+    background-color: #e2e2e2;
+}
+
+.statusIcon {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    position: relative;
+    top: 23px;
+    left: -30px;
+}
+
+.statusIconMessage {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    position: relative;
+    top: 23px;
+    left: -30px;
+}
+
+.date-inputs {
+    width: 120px;
+    margin-right: 25px;
+}
+
+.history-element {
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    border: solid 1px #fff0ef;
+    border-radius: 30px;
+    padding: 25px 20px;
+}
+
+.history-element-item {
+    display: flex;
+    align-items: center;
+}
+
+.cancel-request {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    text-decoration: underline;
+}
+
+.approval-request-button-orange {
+    position: absolute;
+    top: -120px;
+    background-color: var(--button-color);
+    border-radius: 25px;
+    height: 40px;
+    padding: 5px 15px;
+    font-size: 18px;
+    right: 25px;
+}
+
+.approval-request-button-grey {
+    position: absolute;
+    top: -120px;
+    background-color: #6c757d;
+    border-radius: 25px;
+    height: 40px;
+    padding: 5px 15px;
+    font-size: 18px;
+    right: 25px;
+}
+
+.hr-style {
+    border: 1px solid #c1c1c1; width: 100%
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.providers-section, .partners-section {
+    border: solid 2px #fff0ef;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.b-users-forms-section {
+    border: solid 2px #fff0ef;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.payment-forms-section, .payment-crypto-forms-section {
+    border: solid 2px #fff0ef;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.api-clients-forms-section {
+    border: solid 2px #fff0ef;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.red-border {
+    border: 2px solid #f00;
+}
+
+.providers-section-dates {
+    font-size: 12px;
+    color: #c1c1c1;
+}
+
+.b-users-section-dates {
+    font-size: 12px;
+    color: #c1c1c1;
+}
+
+.providers-section-dates > strong {
+    color: black;
+}
+
+.providers-section-status {
+    font-size: 13px;
+    position: absolute;
+    top: 8px;
+    right: 15px;
+}
+.b-users-section-roles {
+    font-size: 13px;
+    position: absolute;
+    top: 8px;
+    right: 15px;
+}
+
+.modal-dialog-center {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.modal-center {
+    text-align: center;
+    padding: 0!important;
+}
+
+.provider-name {
+    display: inline-block;
+    width: 165px;
+    overflow-wrap: break-word;
+}
+
+.b-users-name {
+    display: inline-block;
+    width: 165px;
+    overflow-wrap: break-word;
+}
+
+.activeProvider {
+    border: 1px solid #f00;
+}
+
+.breakWord {
+    overflow-wrap: break-word;
+    max-height: 48px;
+    overflow: hidden;
+}
+
+.pink-border {
+    border: 2px solid rgba(245, 225, 228, 0.43);
+    border-radius: 50px;
+}
+
+.round-border, .round-border:hover {
+    border-radius: 25px;
+    font-size: small;
+}
+
+.grey-rounded-border {
+    border: 1px solid grey !important;
+    border-radius: 10px !important;
+    padding: 8px !important;
+}
+
+.complianceRateTableRow {
+    padding: 10px
+}
+
+.bordered {
+    border-bottom: 1px solid #000;
+}
+
+.full-bordered {
+    border: 1px solid #000;
+}
+
+.br20{
+    border-radius: 20px;
+}
+
+.complianceRatesTableWidth {
+    width: 100%;
+    max-width: 600px;
+    font-size: 1rem;
+}
+
+.complianceRatesFontSize {
+    font-size: 1.05rem;
+}
+
+.complianceLevelBlock {
+    position:relative;
+    padding: 10px 20px 5px;
+    text-align: center;
+    width:120px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    border: solid 1px #fff0ef;
+    border-radius: 30px;
+}
+
+.complianceLevelBlock h5 {
+    font-size: 1rem;
+}
+
+.activeLevel {
+    position:absolute;
+    top:-10px;
+    right:-10px;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/icon_check.png);
+    background-size: contain;
+}
+
+.inactiveLevel {
+    position:absolute;
+    top:-10px;
+    right:-10px;
+    width: 25px;
+    height: 25px;
+    padding-right: .5%;
+    background-image: url(../images/icon_close.png);
+    background-size: contain;
+}
+
+.dashedBlock {
+    margin-top:20px;
+    width: 30px;
+    border: 1px dashed #000;
+    height: 0;
+}
+
+.upgradeBlock {
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.fs12 {
+    font-size: 12px;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-sell {
+    display: table-cell
+}
+
+.bankDetailBlock {
+    border-radius: 40px;
+    /* margin-right: 50px; */
+    margin-top: 25px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.bankDetailBlockBorderActive {
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    border: 1px solid #f00;
+    border-radius: 30px;
+}
+
+.bankDetailBlockBorderInactive {
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    border: solid 1px #fff0ef;
+    border-radius: 30px;
+}
+
+.date-styles{
+    color: #c3c3c3;
+    font-size: 12px;
+}
+
+.bank-template {
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    border: solid 1px #fff0ef;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.bank-detail-select-style {
+    width: 100%;
+}
+
+.backoffice-bank-detail-select-style {
+    width: 120px;
+}
+
+.theme-btn-color {
+    border-radius: 25px;
+    background-color: var(--button-color);
+    color: #fff;
+}
+
+.bank-detail-change-button {
+    /* padding-left: 70px; */
+}
+
+.delete-template-styles {
+    text-decoration: underline;
+    color: #c3c3c3 !important;
+}
+
+.crypto-wallets-style {
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    border: solid 1px #fff0ef;
+    border-radius: 30px;
+    /* margin-right: 40px; */
+    padding: 20px;
+    margin-top: 25px;
+    min-height: 170px;
+}
+
+.flr {
+    float: right;
+}
+
+.dashboardAccount {
+    margin:30px;
+    padding: 30px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    box-shadow: 0px 0px 10px 0px rgb(90 90 90 / 10%);
+    border-radius: 30px;
+}
+
+.dashboardAccountInactive {
+    border:1px solid #ccc;
+    border: solid 1px #fff0ef !important;
+}
+
+.dashboardAccountPosition {
+    position: absolute;
+    bottom: 20px;
+}
+
+@media screen and (max-width: 576px) {
+
+    .complianceLevelBlock {
+        width: 30%;
+     }
+
+     .dashedBlock {
+         width: 8px;
+     }
+
+     .new-ticket-btn {
+        top: -15px;
+        margin-left: -15px;
+        margin-bottom: 60px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    #messageBox {
+        border: none;
+    }
+  }
